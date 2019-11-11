@@ -1,0 +1,36 @@
+Arguments: 
+  /home/yoga/.nvm/versions/node/v8.16.2/bin/node /home/yoga/.nvm/versions/node/v8.16.2/bin/yarn init
+
+PATH: 
+  /home/yoga/bin:/home/yoga/.local/bin:/home/yoga/.nvm/versions/node/v8.16.2/bin:/home/yoga/bin:/home/yoga/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  8.16.2
+
+Platform: 
+  linux ia32
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/home/yoga/.nvm/versions/node/v8.16.2/lib/node_modules/yarn/lib/cli.js:136824:13)
+      at emitNone (events.js:106:13)
+      at Interface.emit (events.js:208:7)
+      at Interface._ttyWrite (readline.js:774:16)
+      at ReadStream.onkeypress (readline.js:158:10)
+      at emitTwo (events.js:126:13)
+      at ReadStream.emit (events.js:214:7)
+      at emitKeys (internal/readline.js:420:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1010:36)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
